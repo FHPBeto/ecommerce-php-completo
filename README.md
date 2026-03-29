@@ -1,4 +1,4 @@
-# 🛒 E-commerce PHP Completo
+   E-commerce PHP Completo
 
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=for-the-badge&logo=php)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479A1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
@@ -7,81 +7,81 @@
 
 Plataforma de e-commerce profissional e escalável desenvolvida com PHP, MySQL e Bootstrap. Inclui carrinho de compras, painel administrativo completo com CRUD, sistema de pedidos, gerenciamento de inventário, integração com gateway de pagamento e muito mais.
 
-## 🎯 Objetivo
+   Objetivo
 
 Criar uma solução de e-commerce robusta, segura e profissional que demonstre boas práticas de desenvolvimento web, arquitetura escalável e padrões de segurança.
 
-## ✨ Funcionalidades
+   Funcionalidades
 
-### Para Clientes
-- 🛍️ Catálogo dinâmico com filtros avançados
-- 🔍 Sistema de busca inteligente
-- 🛒 Carrinho de compras com persistência
-- 💳 Integração com gateway de pagamento (Stripe/PayPal)
-- 👤 Autenticação e gerenciamento de perfil
-- 📦 Rastreamento de pedidos
-- ⭐ Sistema de avaliações e comentários
-- 📧 Notificações por email
-- 📱 Design 100% responsivo
+   Para Clientes
+-  Catálogo dinâmico com filtros avançados
+-  Sistema de busca inteligente
+-  Carrinho de compras com persistência
+-  Integração com gateway de pagamento (Stripe/PayPal)
+-  Autenticação e gerenciamento de perfil
+-  Rastreamento de pedidos
+-  Sistema de avaliações e comentários
+-  Notificações por email
+-  Design 100% responsivo
 
-### Para Administradores
-- 📊 Dashboard com estatísticas em tempo real
-- 📦 Gerenciamento completo de produtos
-- 📂 Categorização e organização
-- 👥 Gerenciamento de usuários e permissões
-- 📈 Relatórios de vendas
-- 💰 Gerenciamento de pedidos
-- 🚚 Integração com transportadoras
-- 🔐 Controle de acesso por função
-- 📧 Gerenciamento de emails
+    Para Administradores
+-  Dashboard com estatísticas em tempo real
+-  Gerenciamento completo de produtos
+-  Categorização e organização
+-  Gerenciamento de usuários e permissões
+-  Relatórios de vendas
+-  Gerenciamento de pedidos
+-  Integração com transportadoras
+-  Controle de acesso por função
+-  Gerenciamento de emails
 
-## 🛠️ Tecnologias Utilizadas
+     Tecnologias Utilizadas
 
-### Backend
-- **PHP 7.4+** - Linguagem de programação
-- **MySQL 5.7+** - Banco de dados relacional
-- **PDO** - Acesso seguro ao banco
-- **Session Management** - Gerenciamento de sessões
-- **Email Service** - Notificações por email
+    Backend
+- PHP 7.4+ - Linguagem de programação
+- MySQL 5.7+ - Banco de dados relacional
+- PDO - Acesso seguro ao banco
+- Session Management - Gerenciamento de sessões
+- Email Service - Notificações por email
 
-### Frontend
-- **HTML5** - Estrutura semântica
-- **CSS3** - Estilização moderna
-- **Bootstrap 5** - Framework CSS responsivo
-- **JavaScript/jQuery** - Interatividade
-- **AJAX** - Requisições assíncronas
+    Frontend
+- HTML5 - Estrutura semântica
+- CSS3 - Estilização moderna
+- Bootstrap 5 - Framework CSS responsivo
+- JavaScript/jQuery - Interatividade
+- AJAX - Requisições assíncronas
 
-### Segurança
-- **Prepared Statements** - Proteção contra SQL Injection
-- **Password Hashing** - Senhas seguras com bcrypt
-- **CSRF Protection** - Proteção contra CSRF
-- **Input Validation** - Validação de entrada
-- **Output Escaping** - Escape de saída
+ Segurança
+- Prepared Statements - Proteção contra SQL Injection
+- Password Hashing - Senhas seguras com bcrypt
+- CSRF Protection - Proteção contra CSRF
+- Input Validation - Validação de entrada
+- Output Escaping - Escape de saída
 
-## 📋 Pré-requisitos
+    Pré-requisitos
 
-- **PHP 7.4+** com extensões: PDO, MySQLi, OpenSSL
-- **MySQL 5.7+** ou **MariaDB**
-- **Apache/Nginx** com suporte a rewrite
-- **Composer** (recomendado)
-- **Git** para versionamento
+- PHP 7.4+ com extensões: PDO, MySQLi, OpenSSL
+- MySQL 5.7+ ou MariaDB
+- Apache/Nginx com suporte a rewrite
+- Composer (recomendado)
+- Git para versionamento
 
-## 🚀 Instalação e Setup
+    Instalação e Setup
 
-### 1. Clonar o Repositório
+   1. Clonar o Repositório
 
 ```bash
 git clone https://github.com/FHPBeto/ecommerce-php-completo.git
 cd ecommerce-php-completo
 ```
 
-### 2. Instalar Dependências
+   2. Instalar Dependências
 
 ```bash
 composer install
 ```
 
-### 3. Configurar Banco de Dados
+   3. Configurar Banco de Dados
 
 ```bash
 # Criar banco de dados
@@ -91,7 +91,7 @@ mysql -u root -p < database/schema.sql
 mysql -u root -p ecommerce < database/seeders.sql
 ```
 
-### 4. Configurar Variáveis de Ambiente
+   4. Configurar Variáveis de Ambiente
 
 ```bash
 cp .env.example .env
@@ -114,7 +114,7 @@ MAIL_USER=seu_email@gmail.com
 MAIL_PASSWORD=sua_senha_app
 ```
 
-### 5. Iniciar Servidor
+   5. Iniciar Servidor
 
 ```bash
 # PHP built-in server
@@ -124,7 +124,7 @@ php -S localhost:8000
 # Acessar: http://localhost/ecommerce-php-completo
 ```
 
-## 📁 Estrutura do Projeto
+   Estrutura do Projeto
 
 ```
 ecommerce-php-completo/
@@ -160,9 +160,9 @@ ecommerce-php-completo/
 └── README.md
 ```
 
-## 🔌 API Endpoints
+   API Endpoints
 
-### Produtos
+   Produtos
 
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
@@ -181,7 +181,7 @@ ecommerce-php-completo/
 | `GET` | `/api/orders/{id}` | Detalhes do pedido |
 | `PUT` | `/api/orders/{id}` | Atualizar status (admin) |
 
-### Autenticação
+   Autenticação
 
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
@@ -190,9 +190,9 @@ ecommerce-php-completo/
 | `POST` | `/api/auth/logout` | Logout |
 | `GET` | `/api/auth/profile` | Perfil do usuário |
 
-## 🗄️ Banco de Dados
+   Banco de Dados
 
-### Tabelas Principais
+ Tabelas Principais
 
 ```sql
 -- Usuários
@@ -241,9 +241,9 @@ CREATE TABLE order_items (
 );
 ```
 
-## 🔐 Segurança
+   Segurança
 
-### Implementações
+  Implementações
 
 - ✅ Prepared Statements contra SQL Injection
 - ✅ Password Hashing com bcrypt
@@ -254,7 +254,7 @@ CREATE TABLE order_items (
 - ✅ Rate Limiting
 - ✅ HTTPS enforcement
 
-## 🧪 Testando
+    Testando
 
 1. Inicie o servidor: `php -S localhost:8000`
 2. Acesse: `http://localhost:8000`
@@ -265,12 +265,12 @@ CREATE TABLE order_items (
    - Fazer checkout
    - Acessar painel admin
 
-### Credenciais de Teste
+    Credenciais de Teste
 
-- **Admin**: admin@example.com / admin123
-- **Usuário**: user@example.com / user123
+- Admin: admin@example.com / admin123
+- Usuário: user@example.com / user123
 
-## 📚 Recursos Úteis
+    Recursos Úteis
 
 - [Documentação PHP](https://www.php.net/docs.php)
 - [MySQL Manual](https://dev.mysql.com/doc/)
@@ -278,7 +278,7 @@ CREATE TABLE order_items (
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [REST API Best Practices](https://restfulapi.net/)
 
-## 🤝 Contribuindo
+     Contribuindo
 
 1. Fork o repositório
 2. Crie uma branch (`git checkout -b feature/MinhaFeature`)
@@ -286,19 +286,19 @@ CREATE TABLE order_items (
 4. Push (`git push origin feature/MinhaFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
+    Licença
 
 MIT - veja [LICENSE](LICENSE) para detalhes.
 
-## 👤 Autor
+   Autor
 
-**FHPBeto**
+  Humberto Engsoftware
 - GitHub: [@FHPBeto](https://github.com/FHPBeto)
 
-## 📞 Suporte
+ Suporte
 
 Encontrou um problema? Abra uma [issue](https://github.com/FHPBeto/ecommerce-php-completo/issues).
 
 ---
 
-**Desenvolvido com ❤️ como solução profissional de e-commerce**
+"Desenvolvido como solução profissional de e-commerce"
